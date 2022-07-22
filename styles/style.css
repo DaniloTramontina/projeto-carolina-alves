@@ -114,10 +114,11 @@ body {
 }
 
 .cadastro {
+    display: flex;
     font-family: 'Righteous', cursive;
     font-weight: bolder;
     font-size: 1.4rem;
-    margin-left: 100px;
+    justify-content: center;
 }
 
 .cadastro-link {
