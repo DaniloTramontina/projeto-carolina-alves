@@ -32,7 +32,7 @@ body {
 .cabecalho-menu-botao {
     font-family: 'Roboto', sans-serif;
     color: #FF905C;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: #9a42193e;
     padding: 0px 10px 0px 8px;
@@ -81,6 +81,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    padding: 25px;
     height: 480px;
 }
 

@@ -11,6 +11,10 @@
         gap: 15px;
     }
 
+    .cabecalho-menu-botao {
+        font-size: 0.9rem;
+    }
+
     .cabecalho-marca img {
         margin: auto;
     }
@@ -29,9 +33,7 @@
     }
 
     .conteudo-principal {
-        margin-left: 25px;
         flex-direction: column;
-        width: 380px;
         height: 900px;
     }
 
