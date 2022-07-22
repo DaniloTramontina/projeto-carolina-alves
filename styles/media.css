@@ -1,4 +1,28 @@
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1232px) {
+
+    .conteudo-marca {
+        font-size: 40px;
+    }
+
+    .foto1 {
+        height: 22rem;
+    }
+
+
+    .circulo {
+        display: none;
+    }
+
+    .imagem-pump {
+        display: none;
+    }
+
+    .imagem-beijo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 883px) {
     body {
         width: 100%;
     }
@@ -15,7 +39,7 @@
         font-size: 0.9rem;
     }
 
-    .cabecalho-marca img {
+    .cabecalho-marca-image {
         margin: auto;
     }
 
@@ -41,31 +65,12 @@
         list-style: none;
     }
 
-    .foto1 {
-        height: 320px;
-    }
-
-    .circulo {
-        display: none;
-    }
-
-    .imagem-pump {
-        display: none;
-    }
-
-    .imagem-beijo {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1220px) {
-
-    .conteudo-marca {
-        font-size: 40px;
+    .cadastro{
+        font-size: 0.9rem;
     }
 
     .foto1 {
-        height: 380px;
+        height: 18rem;
     }
 
     .circulo {

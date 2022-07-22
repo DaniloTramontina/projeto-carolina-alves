@@ -60,7 +60,7 @@ body {
     align-items: center;
 }
 
-.cabecalho-marca img {
+.cabecalho-marca-image {
     height: 80px;
     margin-right: 60px;
     ;
@@ -116,7 +116,7 @@ body {
 .cadastro {
     font-family: 'Righteous', cursive;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.4rem;
     margin-left: 100px;
 }
 
@@ -136,9 +136,12 @@ body {
     opacity: 0.7;
 }
 
-.foto1 {
+.conteudo-imagens{
     box-shadow: 0px 0px 15px #FF905C;
-    height: 450px;
+}
+
+.foto1{
+height: 28rem;
 }
 
 .rodape {
