@@ -16,29 +16,32 @@ body {
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
 }
 
-.cabecalho-menu {
+.cabecalho-menu-lista {
     display: flex;
-    gap: 40px;
+    gap: 25px;
     margin-top: 20px;
     align-items: center;
+    list-style-type: none;
 }
 
 .cabecalho-menu-botao-link{
     font-family: 'Roboto', sans-serif;
-    color: #FF905C;
     font-size: 1.25rem;
     font-weight: bold;
     background-color: #9a42193e;
     padding: 0px 10px 0px 8px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.cabecalho-menu-botao-link a{
+    color: #FF905C;    text-decoration: none;
 }
 
 .cabecalho-menu-botao-link:hover {
