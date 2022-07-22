@@ -1,0 +1,80 @@
+@media screen and (max-width: 890px) {
+    body {
+        width: 100%;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho-menu {
+        gap: 15px;
+    }
+
+    .cabecalho-marca img {
+        margin: auto;
+    }
+
+    .conteudo-marca {
+        display: none;
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 20px;
+    }
+
+    .conteudo-principal-escrito {
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .conteudo-principal {
+        margin-left: 25px;
+        flex-direction: column;
+        width: 380px;
+        height: 900px;
+    }
+
+    .conteudo-principal-escrito-descricao {
+        list-style: none;
+    }
+
+    .foto1 {
+        height: 320px;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .imagem-pump {
+        display: none;
+    }
+
+    .imagem-beijo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+
+    .conteudo-marca {
+        font-size: 40px;
+    }
+
+    .foto1 {
+        height: 380px;
+    }
+
+    .circulo {
+        display: none;
+    }
+
+    .imagem-pump {
+        display: none;
+    }
+
+    .imagem-beijo {
+        display: none;
+    }
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #2B9E93;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.cabecalho-menu-botao {
+    font-family: 'Roboto', sans-serif;
+    color: #FF905C;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #9a42193e;
+    padding: 0px 10px 0px 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cabecalho-menu-botao-link {
+    text-decoration: none;
+    color: #FF905C;
+}
+
+.cabecalho-menu-botao:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.conteudo {
+    Border-top: 2px solid #FF905C;
+}
+
+.cabecalho-marca {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-marca img {
+    height: 80px;
+    margin-right: 60px;
+    ;
+}
+
+.conteudo-marca {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #28EBD7;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.conteudo-principal {
+    background-color: #20857b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 480px;
+}
+
+.conteudo-principal-escrito {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    max-width: 450px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 5px 4px 4px #000000;
+    box-shadow: 5px 4px 4px #FF905C;
+    margin-bottom: 30px;
+}
+
+.conteudo-principal-escrito-descricao {
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.conteudo-principal-escrito-item {
+    margin-bottom: 8px;
+}
+
+.cadastro {
+    font-family: 'Righteous', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.cadastro-link {
+    background-color: #9a42193e;
+    color: #FF905C;
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px #FF905C;
+}
+
+.cadastro-link:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.foto1 {
+    box-shadow: 0px 0px 15px #FF905C;
+    height: 450px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram {
+    margin: 15px;
+    width: 150px;
+}
+
+/* aqui começa o css da pagina de cadastro*/
+
+.conteudo-cadastro {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #20857b;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.conteudo-cadastro h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    text-shadow: 5px 4px 4px #000000;
+    box-shadow: 5px 4px 4px #FF905C;
+    margin-bottom: 30px;
+}
+
+.conteudo-cadastro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-image {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+.social-media-link {
+    text-decoration: none;
+}
+
+.social-media-link:first-child .social-media-image {
+    margin-left: 0;
+}
+
+.conteudo-cadastro-label-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.conteudo-cadastro-label-item-span {
+    font-size: 18px;
+}
+
+.conteudo-cadastro-form input {
+    background-color: #28EBD7;
+    width: 300px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-top: 4px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+.conteudo-cadastro-form input[type=submit] {
+    cursor: pointer;
+    width: 40%;
+    background-color: #9a42193e;
+    color: #FF905C;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px #FF905C
+}
+
+.conteudo-cadastro-form input[type=submit]:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.circulo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(40, 235, 215, 1) 29%, rgba(146, 194, 206, 1) 66%, rgba(239, 251, 254, 1) 100%);
+    clip-path: circle(40% at right bottom);
+}
+
+.imagem-lateral {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.imagem-pump {
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    width: 20%;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+
+.imagem-beijo {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 15%;
+}
+
+.alternative {
+    margin-top: 15px;
+}
+
+.alternative span {
+    font-weight: bold;
+    opacity: 0.7;
+    position: relative;
+}
+
+.alternative span::before,
+.alternative span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #ffffff;
+    opacity: 0.7;
+    bottom: 50%;
+    right: 50px;
+}
+
+.alternative span::after {
+    left: 50px;
+}
