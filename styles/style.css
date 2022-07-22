@@ -136,12 +136,9 @@ body {
     opacity: 0.7;
 }
 
-.conteudo-imagens{
-    box-shadow: 0px 0px 15px #FF905C;
-}
-
 .foto1{
-height: 28rem;
+    box-shadow: 0px 0px 15px #FF905C;
+    height: 28rem;
 }
 
 .rodape {
