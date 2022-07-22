@@ -27,25 +27,21 @@ body {
     display: flex;
     gap: 40px;
     margin-top: 20px;
+    align-items: center;
 }
 
-.cabecalho-menu-botao {
+.cabecalho-menu-botao-link{
     font-family: 'Roboto', sans-serif;
     color: #FF905C;
     font-size: 1.25rem;
     font-weight: bold;
     background-color: #9a42193e;
     padding: 0px 10px 0px 8px;
-    border: none;
     border-radius: 10px;
-}
-
-.cabecalho-menu-botao-link {
     text-decoration: none;
-    color: #FF905C;
 }
 
-.cabecalho-menu-botao:hover {
+.cabecalho-menu-botao-link:hover {
     background-color: #fff;
     transition: 0.5s;
     opacity: 0.7;
